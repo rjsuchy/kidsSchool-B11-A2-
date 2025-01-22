@@ -1,0 +1,289 @@
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); */
+
+/* fonts */
+
+/* -- */
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  /* ---------- */
+
+  /* shard styles */
+
+  *{
+    margin: 0px;
+    padding: 0px; 
+        
+ 
+}
+
+  .btn{
+    height: 45px;
+    width: 150px ;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background: rgb(254, 163, 1);
+    border: none;
+    
+  }
+
+  .paragraph{
+    font-size: 20px;
+  }
+
+
+  /* -------- */
+
+  /* logo-img-flex */
+
+  .img-logo{
+    display: flex;
+    align-items: center;
+
+  }
+
+  .nav-menus{
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+    font-size: 20px;
+   
+    
+  }
+
+  .nav-full{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-top: 10px;
+  }
+
+  ul#menu-list {
+    list-style-type: none;
+    }
+
+.home{
+  color: rgb(254, 163, 1);
+
+}
+.about{
+  color: rgb(1, 172, 253);
+
+}
+.facilities{
+  color: rgb(5, 212, 223);
+
+}
+.admission{
+  color: rgb(93, 88, 239);
+
+}
+
+
+/* banner section styles */
+
+.banner{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 50px;
+
+  margin-top: 10px;
+  margin-right: 140px;
+  margin-left: 140px;
+
+
+
+  height: 575px;
+}
+
+.bnr-discriptions{
+  display: flex;
+  flex-direction: column;
+  align-items: left ;
+  gap: 20px;
+}
+
+.text-clr1{
+  color:rgb(254, 163, 1)
+}
+.text-clr2{
+  color: rgb(1, 172, 253)
+}
+
+.enroll-btn{
+  background-color: rgb(17, 17, 17);
+}
+
+h1{
+  font-size: 56px;
+}
+
+
+/* Standard-Curriculum styles */
+
+.Standard-Curriculum{
+  background: url(../assets/bg.png);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+
+  margin-bottom: 10px;
+}
+
+.Curriculum-title{
+  padding-top: 30px;
+}
+
+.Curriculum-cards{
+  margin-right: 140px;
+  margin-left: 140px;
+  gap: 35px;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.single-curriculam-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  background-color: antiquewhite;
+
+  padding: 25px;
+
+  position: relative;
+  width: 367.8px;
+  height: 400px;
+
+}
+
+.card1{
+  box-sizing: border-box;
+  border: 0.94px solid rgb(222, 245, 255);
+  border-radius: 18.86px;
+
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.card2{
+  box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+}
+.card3{
+  box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+#remove-underline{
+  text-decoration:none;
+}
+
+.lt-gt{
+  border-radius: 30px;
+  background-color: rgb(254, 163, 1);
+  position: relative;
+  width: 55px;
+  height: 55px;
+
+  border: none;
+
+}
+.read-more{
+  color: rgb(100, 200, 255) ;
+}
+
+.read-more2{
+  color: rgb(240, 170, 0);
+
+}
+.read-more3{
+  color: rgb(135, 0, 255);
+
+}
+
+
+/* Our story section styles */
+
+
+
+
+/* footer dection  styles */
+
+.footer{
+  background-color: rgb(1, 172, 253);
+  color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align:center;
+
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 20px;
+}
+
+
+.kids-edu-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.kids-edu{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px
+}
+.paragraph-footer{
+  text-wrap-style: wrap;
+}
+
+
+.footer-about-school{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footr-title-icon{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-list{
+  list-style-type: none;
+}
