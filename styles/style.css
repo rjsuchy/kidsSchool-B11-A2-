@@ -12,7 +12,22 @@
     font-style: normal;
   }
   /* ---------- */
+/* marque---- */
+.main {
+  text-align: center;
+}
 
+.marq {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.geek1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  padding-bottom: 5px;
+}
   /* shard styles */
 
   *{
